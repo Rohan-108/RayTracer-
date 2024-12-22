@@ -1,8 +1,6 @@
 #ifndef VEC3_H
 #define VEC3_H
 
-#include "global.h"
-
 class vec3
 {
 public:

@@ -1,7 +1,6 @@
 #ifndef HITTABLE_LIST_H
 #define HITTABLE_LIST_H
 
-#include "global.h"
 #include "hittable.h"
 #include <vector>
 
