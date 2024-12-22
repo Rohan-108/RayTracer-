@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/jharo/Desktop/RayTracing/build",
+  "command": "C:\\MinGW\\bin\\c++.exe   -g -o CMakeFiles\\main.dir\\main.cpp.obj -c C:\\Users\\jharo\\Desktop\\RayTracing\\main.cpp",
+  "file": "C:/Users/jharo/Desktop/RayTracing/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.obj"
+}
+]
