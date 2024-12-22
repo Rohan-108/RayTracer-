@@ -1,8 +1,7 @@
 #ifndef VEC3_H
 #define VEC3_H
 
-#include <math.h>
-#include <iostream>
+#include "global.h"
 
 class vec3
 {
