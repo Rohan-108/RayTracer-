@@ -24,10 +24,10 @@ public:
         std::cout << "P3\n"
                   << image_width << ' ' << image_height << "\n255\n";
 
-        for (int j = 0; j < image_height; j++)
+        for (int j = 0; j < image_height; ++j)
         {
             std::clog << "\rScanlines remaining: " << (image_height - j) << " " << std::flush;
-            for (int i = 0; i < image_width; i++)
+            for (int i = 0; i < image_width; ++i)
             {
                 color pixel_color(0, 0, 0);
                 for (int sample = 0; sample < samples_per_pixel; sample++)
@@ -63,7 +63,7 @@ private:
         auto theta = degrees_to_radians(vfov);
         auto h = std::tan(theta / 2);
         auto viewport_height = 2 * h * focus_dist;
-        auto viewport_width = viewport_height * (double(image_width) / image_height);
+        auto viewport_width = viewport_height * (static_cast<double>(image_width) / image_height);
         // Calculate the u,v,w unit basis vectors for the camera coordinate frame.
         w = unit_vector(lookfrom - lookat);
         u = unit_vector(cross(vup, w));

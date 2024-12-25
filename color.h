@@ -2,8 +2,7 @@
 #define COLOR_H
 
 #include "vec3.h"
-
-using color = vec3;
+#include <iostream>
 
 inline double linear_to_gamma(double linear_component)
 {
