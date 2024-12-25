@@ -2,7 +2,7 @@
     "version": 8,
     "configurePresets": [
         {
-            "name": "GCC 6.3.0 mingw32",
+            "name": "ray",
             "displayName": "GCC 6.3.0 mingw32",
             "description": "Using compilers: C = C:\\MinGW\\bin\\gcc.exe, CXX = C:\\MinGW\\bin\\g++.exe",
             "generator": "MinGW Makefiles",

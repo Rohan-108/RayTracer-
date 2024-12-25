@@ -1,3 +1,0 @@
-C:/Users/jharo/Desktop/RayTracing/build/CMakeFiles/main.dir
-C:/Users/jharo/Desktop/RayTracing/build/CMakeFiles/edit_cache.dir
-C:/Users/jharo/Desktop/RayTracing/build/CMakeFiles/rebuild_cache.dir
